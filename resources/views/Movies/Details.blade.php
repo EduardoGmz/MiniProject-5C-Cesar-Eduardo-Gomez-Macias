@@ -8,6 +8,14 @@
                     <h1 class="card-title">{{ $movie->type }}</h1>
                     <h3 class="card-subtitle mb-2 text-muted">{{ $movie->title }}</h3>
                     <p class="card-text">{{ $movie->director }}</p>
+                    <p class="card-text">{{ $movie->cast }}</p>
+                    <p class="card-text">{{ $movie->country }}</p>
+                    <p class="card-text">{{ $movie->director }}</p>
+                    <p class="card-text">{{ $movie->release_year }}</p>
+                    <p class="card-text">{{ $movie->rating }}</p>
+                    <p class="card-text">{{ $movie->duration }}</p>
+                    <p class="card-text">{{ $movie->listed_in }}</p>
+                    <p class="card-text">{{ $movie->description }}</p>
                 </div>
                 <div class="card-footer">
                     <p>Rating:</p>
